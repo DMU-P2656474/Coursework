@@ -1,0 +1,265 @@
+
+
+.title{
+
+text-align: center; /* Here I have alligned the text to appear in the centre of the page. */
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial; /* I have included a font-family to alter the font of the text. This should make the title more appealing towards viewers. I have also included two other fonts for alternate browsers to fall back on if unsupported. */
+font-size: 50px; /* I resized the text to an appropriate size. Not too small and not too large either. */
+
+margin-top: 20px;
+padding: 70px;
+border: mixed;
+border-style: double double solid solid;
+border-width: thick;
+border-color: #596499;
+background-image: linear-gradient(to bottom, #6b84ff 10%, #ffee99 99%); /* I have specified what colour the gradient image should be. Sticking with the colour scheme, I have chosen these pastel yellow/blue colours. */
+}
+
+
+.NavBar{
+list-style-type: none; /* I specified it isn't a list so the contents aren't ordered in a bulleted list */
+display: inline-flex; width: 1330px;
+
+background-color: #333;
+
+text-align-last: center;/* more alterations to the font and "invisible" space between the margin and surrounding area of the nav bar */
+padding: 10px;
+margin: 0;
+font-family: sans-serif;
+}
+
+.inactive{/* The colour of the inactive nav bar is different to that of the active one so viewers can tell what page they are viewing with ease. */
+color: #ffee99;
+padding: 5px;
+}
+/* Again, padding has been added between to create space. */
+.active {
+  color: #7889de;
+  padding: 10px;
+}
+
+
+.AUDIO{
+margin-top: 35px;/* This is the positioning of the audio file on the first page. This is to make sure it is positioned appropriately on the page. */
+margin-bottom: 10px;
+}
+
+
+.AboutSection{/* Style aspects for each section. */
+border: dashed;
+border-color: #596499;/* This includes the border design, width and colours. */
+border-width: 5px;
+padding: 20px;
+
+margin-top: 35px;/* This inlcudes the margin space between the edge of the page and the amount of space the section takes up. */
+margin-bottom: 35px;
+float: right;
+width: 800px;
+height: 250px;
+
+background-color: #ffee99;
+}
+
+.About{/* This section controls the font and font-family style used for the article of text. */
+margin: 10px;/* There is space between this and the edge of the box and border added. */
+font-family: Arial;
+}
+
+.AboutHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;  /* There are alternative fonts in case the browser doesn't support. */
+margin: 10px;
+}
+
+
+.BenefitsSection{ /* This is alike the above section but the sizing of width/height of the box has been altered to match the intial planned layout sizing. */
+border: dashed;
+border-color: #596499;
+border-width: 5px;
+padding: 20px;
+
+float: left;
+margin-top: 35px;
+margin-bottom: 35px;
+
+background-color: #ffee99;
+width: 750px;
+height: 321px;
+}
+
+.Benefits{
+margin: 10px;
+font-family: Arial;
+}
+
+.BenefitsHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;
+margin: 10px;
+}
+
+.BenefitsList{
+margin: 10px;
+font-family: Arial;
+list-style-type: circle;
+}
+
+.page1images{
+float: right;
+margin: 2px;
+}
+
+.MethodsSection{ /* This is alike the above section but the sizing of width/height of the box has been altered to match the intial planned layout sizing. */
+border: dashed;
+border-color: #596499;
+border-width: 5px;
+padding: 20px;
+
+margin-top: 35px;
+margin-bottom: 35px;
+float: left;
+width: 480px;
+height: 250px;
+
+background-color: #ffee99;
+}
+
+.Methods{
+margin: 10px;
+font-family: Arial;
+}
+
+.MethodsHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;
+margin: 10px;
+}
+
+
+.Page2Images{
+  float: right;
+  margin-right: 2px;
+  margin-top: 35px;
+}
+
+
+.TechniquesSection{ /* This is alike the above section but the sizing of width/height of the box has been altered to match the intial planned layout sizing. */
+border: dashed;
+border-color: #596499;
+border-width: 5px;
+padding: 20px;
+
+margin-top: 35px;
+margin-bottom: 35px;
+position: relative;
+left: 0px;
+top: 330px;
+
+background-color: #ffee99;
+width: 750px;
+height: 321px;
+}
+
+.Techniques{
+margin: 10px;
+font-family: Arial;
+position: relative;
+top: -250px;
+}
+
+.TechniquesHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;
+margin: 10px;
+position: relative;
+top: -250px;
+left: -500px;
+}
+
+.PAGE2VIDEO{
+float: right;
+
+}
+
+
+
+.PlacesSection{ /* This is alike the above section but the sizing of width/height of the box has been altered to match the intial planned layout sizing. */
+float: left;
+border: dashed;
+border-color: #596499;
+border-width: 5px;
+padding: 20px;
+
+margin-top: 35px;
+margin-bottom: 35px;
+position: relative;
+left: 0px;
+top: 10px;
+
+background-color: #ffee99;
+width: 750px;
+height: 321px;
+}
+
+.Places{
+margin: 10px;
+font-family: Arial;
+position: relative;
+top: -10px;
+}
+
+.PlacesHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;
+margin: 10px;
+position: relative;
+top: -10px;
+}
+
+
+.Page3Images{
+  float: right;
+  margin-right: 2px;
+  margin-top: 35px;
+}
+
+.ContactSection{/* Style aspects for each section. */
+border: dashed;
+border-color: #596499;/* This includes the border design, width and colours. */
+border-width: 5px;
+padding: 20px;
+
+margin-top: 35px;/* This inlcudes the margin space between the edge of the page and the amount of space the section takes up. */
+margin-bottom: 35px;
+float: left;
+width: 800px;
+height: 250px;
+
+background-color: #ffee99;
+}
+
+.Contact{/* This section controls the font and font-family style used for the article of text. */
+margin: 10px;/* There is space between this and the edge of the box and border added. */
+font-family: Arial;
+}
+
+.ContactHead{
+font-size: 30px;
+font-family: Lucida bright, MV Boli, Bahnschrift SemiBold, Arial;  /* There are alternative fonts in case the browser doesn't support. */
+margin: 10px;
+}
+
+.Page4Images{
+  float: right;
+  margin-right: 2px;
+  margin-top: 35px;
+}
+
+
+
+
+.TextFooter{
+bottom: -650px; /* I have set it so the footer is in a fixed position at the bottom of the page */
+position: absolute; /* I have made it so that the footer is attached to the bottom of the page. It shouldn't move if the page is moved upwards/downwards.*/
+left: 600px; /* I have centralised the footer so it is positioned in the middle of the page*/
+}
